@@ -1,0 +1,16 @@
+{
+  "name": "some-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node test.js",
+    "build": "tsc test.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ac2pic/modloader": "file:../modloader",
+    "@types/node": "^13.1.1"
+  }
+}
